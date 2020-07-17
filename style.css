@@ -1,0 +1,39 @@
+body{
+    background-color: blue;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: blue;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+h1{
+display: inline-block;
+width: 100px;
+padding: 20px;
+margin: auto;
+}
+
+h2{ 
+    text-align: center;
+    color: rgb(20, 9, 9)
+}
+
+    .btn{
+        border: 5px solid blue;
+        font-size: 20px;
+        color: blue;
+    }
+
+    .btn:hover{
+background-color: blue; 
+    }
+
